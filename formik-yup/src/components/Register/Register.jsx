@@ -1,5 +1,6 @@
 import RegisterSchema from "../schemas/auth/RegisterSchema";
 import "./Register.css";
+import "../../index.css"
 import {useFormik} from "formik"
 const Register = () => {
 

@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:14px 84px;
+    padding:32px 84px;
 }
 .register>form{
     width: 100%;

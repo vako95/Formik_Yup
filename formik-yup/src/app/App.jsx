@@ -1,4 +1,5 @@
 import Register from "../components/Register/Register.jsx";
+import Login from "../components/Login/Login.jsx";
 import FormikRegister from "../components/common/FormikRegister/FormikRegister.jsx";
 
 import Section from "../components/common/Section/Section.jsx";
@@ -12,8 +13,11 @@ return(
      <FormikRegister>
         <Register />
      </FormikRegister>
-         
-         
+        </Section>
+        <Section>
+     <FormikRegister>
+        <Login />
+     </FormikRegister>
         </Section>
 
     </div>
